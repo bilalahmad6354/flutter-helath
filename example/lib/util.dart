@@ -1,4 +1,4 @@
-import 'package:flutter_health/flutter_health.dart';
+import 'package:flutter_health_wrapper/flutter_health_wrapper.dart';
 
 /// List of data types available on iOS
 const List<HealthDataType> dataTypesIOS = [

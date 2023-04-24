@@ -12,10 +12,10 @@
 @import device_info_plus;
 #endif
 
-#if __has_include(<flutter_health/HealthPlugin.h>)
-#import <flutter_health/HealthPlugin.h>
+#if __has_include(<flutter_health_wrapper/HealthPlugin.h>)
+#import <flutter_health_wrapper/HealthPlugin.h>
 #else
-@import flutter_health;
+@import flutter_health_wrapper;
 #endif
 
 #if __has_include(<permission_handler_apple/PermissionHandlerPlugin.h>)

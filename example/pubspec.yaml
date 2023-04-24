@@ -1,4 +1,4 @@
-name: flutter_health_ad
+name: flutter_health_wrapper_ad
 description: Demonstrates how to use the health plugin.
 publish_to: "none"
 version: 4.5.0
@@ -16,7 +16,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_health:
+  flutter_health_wrapper:
     path: ../
 
 flutter:

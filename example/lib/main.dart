@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_health/flutter_health.dart';
-import 'package:flutter_health_ad/util.dart';
+import 'package:flutter_health_wrapper/flutter_health_wrapper.dart';
+import 'package:flutter_health_wrapper_ad/util.dart';
 import 'package:permission_handler/permission_handler.dart';
 
 void main() => runApp(HealthApp());

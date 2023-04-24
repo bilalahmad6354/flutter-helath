@@ -23,7 +23,7 @@ public final class GeneratedPluginRegistrant {
     try {
       flutterEngine.getPlugins().add(new cachet.plugins.health.HealthPlugin());
     } catch(Exception e) {
-      Log.e(TAG, "Error registering plugin flutter_health, cachet.plugins.health.HealthPlugin", e);
+      Log.e(TAG, "Error registering plugin flutter_health_wrapper, cachet.plugins.health.HealthPlugin", e);
     }
     try {
       flutterEngine.getPlugins().add(new com.baseflow.permissionhandler.PermissionHandlerPlugin());
