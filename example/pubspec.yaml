@@ -1,4 +1,4 @@
-name: health_example
+name: flutter_health_ad
 description: Demonstrates how to use the health plugin.
 publish_to: "none"
 version: 4.5.0
@@ -16,7 +16,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  health:
+  flutter_health:
     path: ../
 
 flutter:

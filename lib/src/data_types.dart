@@ -1,4 +1,4 @@
-part of health;
+part of flutter_health;
 
 /// List of all available data types.
 enum HealthDataType {

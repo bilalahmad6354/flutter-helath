@@ -1,4 +1,4 @@
-part of health;
+part of flutter_health;
 
 /// A numerical value from Apple HealthKit or Google Fit
 /// such as integer or double.

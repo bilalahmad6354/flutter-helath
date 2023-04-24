@@ -1,4 +1,4 @@
-part of health;
+part of flutter_health;
 
 /// A [HealthDataPoint] object corresponds to a data point capture from
 /// GoogleFit or Apple HealthKit with a [HealthValue] as value.

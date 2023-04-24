@@ -1,4 +1,4 @@
-part of health;
+part of flutter_health;
 
 /// Main class for the Plugin.
 ///

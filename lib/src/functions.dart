@@ -1,4 +1,4 @@
-part of health;
+part of flutter_health;
 
 /// Custom Exception for the plugin. Used when a Health Data Type is requested,
 /// but not available on the current platform.

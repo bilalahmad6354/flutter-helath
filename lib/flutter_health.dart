@@ -1,4 +1,4 @@
-library health;
+library flutter_health;
 
 import 'dart:async';
 import 'dart:collection';
