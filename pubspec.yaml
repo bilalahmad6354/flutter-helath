@@ -1,6 +1,6 @@
 name: flutter_health_wrapper
 description: Wrapper for HealthKit on iOS and Google Fit and Health Connect on Android.
-version: 1.0.0
+version: 1.0.4
 homepage: https://github.com/bilalahmad6354/flutter-helath.git
 
 environment:

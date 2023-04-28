@@ -1,5 +1,5 @@
 {
-  "name": "health",
+  "name": "flutter_health_wrapper",
   "version": "1.0.4",
   "summary": "Wrapper for the iOS HealthKit and Android GoogleFit services.",
   "description": "Wrapper for the iOS HealthKit and Android GoogleFit services.",

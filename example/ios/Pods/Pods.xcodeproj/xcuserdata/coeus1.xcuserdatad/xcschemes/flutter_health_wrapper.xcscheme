@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C4C7E736E22C8AC36002613AE41164EE"
-               BuildableName = "health.framework"
-               BlueprintName = "health"
+               BlueprintIdentifier = "1B8FB75D456CF3DB53E2FB44FC388515"
+               BuildableName = "flutter_health_wrapper.framework"
+               BlueprintName = "flutter_health_wrapper"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

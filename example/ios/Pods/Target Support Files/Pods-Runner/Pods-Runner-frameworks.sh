@@ -41,7 +41,7 @@ install_framework()
 
   if [ -L "${source}" ]; then
     echo "Symlinked..."
-    source="$(readlink "${source}")"
+    source="$(readlink -f "${source}")"
   fi
 
   if [ -d "${source}/${BCSYMBOLMAP_DIR}" ]; then
@@ -177,15 +177,15 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/device_info_plus/device_info_plus.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/health/health.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/flutter_health_wrapper/flutter_health_wrapper.framework"
 fi
 if [[ "$CONFIGURATION" == "Profile" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/device_info_plus/device_info_plus.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/health/health.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/flutter_health_wrapper/flutter_health_wrapper.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/device_info_plus/device_info_plus.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/health/health.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/flutter_health_wrapper/flutter_health_wrapper.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

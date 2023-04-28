@@ -1,0 +1,6 @@
+framework module flutter_health_wrapper {
+  umbrella header "flutter_health_wrapper-umbrella.h"
+
+  export *
+  module * { export * }
+}

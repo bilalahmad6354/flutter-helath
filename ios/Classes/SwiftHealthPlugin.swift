@@ -38,6 +38,7 @@ public class SwiftHealthPlugin: NSObject, FlutterPlugin {
     let LOW_HEART_RATE_EVENT = "LOW_HEART_RATE_EVENT"
     let RESTING_HEART_RATE = "RESTING_HEART_RATE"
     let RESPIRATORY_RATE = "RESPIRATORY_RATE"
+    let LMP = "LMP"
     let PERIPHERAL_PERFUSION_INDEX = "PERIPHERAL_PERFUSION_INDEX"
     let STEPS = "STEPS"
     let WAIST_CIRCUMFERENCE = "WAIST_CIRCUMFERENCE"
@@ -825,6 +826,7 @@ public class SwiftHealthPlugin: NSObject, FlutterPlugin {
             dataTypesDict[BLOOD_GLUCOSE] = HKSampleType.quantityType(forIdentifier: .bloodGlucose)!
             dataTypesDict[BLOOD_OXYGEN] = HKSampleType.quantityType(forIdentifier: .oxygenSaturation)!
             dataTypesDict[RESPIRATORY_RATE] = HKSampleType.quantityType(forIdentifier: .respiratoryRate)!
+            dataTypesDict[LMP] = HKCategoryType.categoryType(forIdentifier: .menstrualFlow)!
             dataTypesDict[PERIPHERAL_PERFUSION_INDEX] = HKSampleType.quantityType(forIdentifier: .peripheralPerfusionIndex)!
             dataTypesDict[BLOOD_PRESSURE_DIASTOLIC] = HKSampleType.quantityType(forIdentifier: .bloodPressureDiastolic)!
             dataTypesDict[BLOOD_PRESSURE_SYSTOLIC] = HKSampleType.quantityType(forIdentifier: .bloodPressureSystolic)!

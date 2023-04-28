@@ -69,7 +69,7 @@ THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABI
 CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.</string>
 			<key>Title</key>
-			<string>health</string>
+			<string>flutter_health_wrapper</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

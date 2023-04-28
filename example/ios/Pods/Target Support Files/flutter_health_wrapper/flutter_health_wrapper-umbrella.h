@@ -12,6 +12,6 @@
 
 #import "HealthPlugin.h"
 
-FOUNDATION_EXPORT double healthVersionNumber;
-FOUNDATION_EXPORT const unsigned char healthVersionString[];
+FOUNDATION_EXPORT double flutter_health_wrapperVersionNumber;
+FOUNDATION_EXPORT const unsigned char flutter_health_wrapperVersionString[];
 

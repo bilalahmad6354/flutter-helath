@@ -19,7 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>health.xcscheme</key>
+		<key>flutter_health_wrapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

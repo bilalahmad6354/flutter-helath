@@ -1,11 +1,11 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/device_info_plus" "${PODS_CONFIGURATION_BUILD_DIR}/health" "${PODS_CONFIGURATION_BUILD_DIR}/permission_handler_apple"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/device_info_plus" "${PODS_CONFIGURATION_BUILD_DIR}/flutter_health_wrapper" "${PODS_CONFIGURATION_BUILD_DIR}/permission_handler_apple"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/device_info_plus/device_info_plus.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/health/health.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/permission_handler_apple/permission_handler_apple.framework/Headers"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/device_info_plus/device_info_plus.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/flutter_health_wrapper/flutter_health_wrapper.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/permission_handler_apple/permission_handler_apple.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) /usr/lib/swift '@executable_path/Frameworks' '@loader_path/Frameworks'
 LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "device_info_plus" -framework "health" -framework "permission_handler_apple"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "device_info_plus" -framework "flutter_health_wrapper" -framework "permission_handler_apple"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
